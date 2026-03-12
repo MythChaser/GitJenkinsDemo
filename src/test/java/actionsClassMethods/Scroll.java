@@ -21,5 +21,7 @@ public class Scroll {
 		Actions act = new Actions(driver);
 		//act.scrollToElement(ele).perform();
 		act.scrollByAmount(0, 800).perform();
+		
+		System.out.println("2nd commit test");
 	}
 }
