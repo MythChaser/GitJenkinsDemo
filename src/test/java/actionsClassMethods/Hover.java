@@ -19,5 +19,6 @@ public class Hover {
 		WebElement link = driver.findElement(By.xpath("(//a[@href='/computers'])[1]"));
 		Actions act = new Actions(driver);
 		act.moveToElement(link).perform();
+		System.out.println("main");
 	}
 }
